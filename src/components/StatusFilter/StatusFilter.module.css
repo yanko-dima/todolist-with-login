@@ -1,0 +1,16 @@
+.statusFilter {
+  display: grid;
+  gap: 4px;
+}
+
+.title {
+  margin: 0;
+  font-style: 16px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.wrapper {
+  display: flex;
+  gap: 4px;
+}

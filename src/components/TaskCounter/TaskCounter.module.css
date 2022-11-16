@@ -1,0 +1,17 @@
+.tasksCounter {
+  display: grid;
+  gap: 4px;
+}
+
+.title {
+  margin: 0;
+  font-style: 16px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.tasksCounterList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
