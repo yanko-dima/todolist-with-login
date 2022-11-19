@@ -6,7 +6,7 @@ import { selectIsLoading } from 'redux/tasks/selectors';
 import { TaskForm } from 'components/TaskForm/TaskForm';
 import { TasksBar } from 'components/TasksBar/TasksBar';
 
-function Tasks() {
+const Tasks = () => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
 
@@ -22,6 +22,6 @@ function Tasks() {
       <TasksList />
     </>
   );
-}
+};
 
 export default Tasks;
