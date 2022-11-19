@@ -1,9 +1,9 @@
 import { useDispatch } from 'react-redux';
-import { deleteTask, toggleCompleted } from 'redux/operations';
+import { deleteTask, toggleCompleted } from 'redux/tasks/operations';
 import { MdClose } from 'react-icons/md';
-import css from './Task.module.css';
+import css from './TaskItem.module.css';
 
-export const Task = ({ task }) => {
+export const TaskItem = ({ task }) => {
   const dispatch = useDispatch();
 
   const handleDelete = () => {

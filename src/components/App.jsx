@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchTasks } from 'redux/operations';
-import { selectIsLoading, selectError } from 'redux/selectors';
+import { fetchTasks } from 'redux/tasks/operations';
+import { selectIsLoading, selectError } from 'redux/tasks/selectors';
 import { Layaut } from './Layout/Layout';
 import { AppBar } from './AppBar/AppBar';
 import { TaskForm } from './TaskForm/TaskForm';
-import { TaskList } from './TaskList/TaskList';
+import { TasksList } from './TasksList/TasksList';
 
 export const App = () => {
   const dispatch = useDispatch();
@@ -23,7 +23,7 @@ export const App = () => {
         <TaskForm />
         {isLoading && !error && <p>Loading tasks...</p>}
         {error && <p>{error}</p>}
-        <TaskList />
+        <TasksList />
       </Layaut>
     </>
   );

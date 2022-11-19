@@ -10,8 +10,8 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { tasksReducer } from './tasksSlice';
-import { filtersReducer } from './filtersSlice';
+import { tasksReducer } from './tasks/slice';
+import { filtersReducer } from './filter/slice';
 
 const middleware = [
   ...getDefaultMiddleware({
