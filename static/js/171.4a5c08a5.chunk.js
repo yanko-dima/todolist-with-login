@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktodolist_with_login=self.webpackChunktodolist_with_login||[]).push([[171],{2171:function(e,t,i){i.r(t),i.d(t,{default:function(){return c}});var n="Home_contaiter__c9AA2",l="Home_title__L087v",o=i(184),c=function(){return(0,o.jsx)("div",{className:n,children:(0,o.jsx)("h1",{className:l,children:"Home Placeholder"})})}}}]);
+//# sourceMappingURL=171.4a5c08a5.chunk.js.map
